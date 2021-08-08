@@ -3,49 +3,88 @@
 <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <script src="bootstrap.bundle.js"></script>
+        <script src="bootstrap.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Our Menu</h1>
-    </header>
 
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <h3 id="navbar" class="navbar-brand" href="#">FOOD LLC</h3>
+          <button id="navbar-right" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto ">
+              <a class="nav-link-lg nav-link-md nav-link-sm" href="#chicken">Chicken</a>
+              <a class="nav-link-lg nav-link-md nav-link-sm" href="#beef">Beef</a>
+              <a class="nav-link-lg nav-link-md nav-link-sm " href="#sushi">Sushi</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
+<div class="container-fluid card-title">
+  <h1 id="header" class="card-body">
+    Our Menu
+  </h1>
+</div>
+
+<div class="container-fluid">
 <div class="row">
-    <article class="col-lg-4 col-md-6 col-sm-12">
-        <div class="box-0">
-        </div>
-        <div class="chicken box-title">
+    <article id="chicken" class="col-md-4 col-sm-6 col-xs-12">
+        <div class="row flat">
+            <div class="col-8">
+            </div>
+            <div class="col-4">
             <h3>Chicken</h3>
+            </div>
         </div>
-        <p class="box-menu">Lorem ipsum dolor sit amet,<br>
+        <p class="col-12">Lorem ipsum dolor sit amet,<br>
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+        officia deserunt mollit anim id est laborum. <a href="#">Back to Top</a>
+      </p>
     </article>
 
-    <article class="col-lg-4 col-md-6 col-sm-12">
-        <div class="box-0">
-        </div>
-        <div class="beef box-title">
+    <article id="beef" class="col-md-4 col-sm-6 col-xs-12">
+        <div class="row flat">
+            <div class="col-8">
+            </div>
+            <div class="col-4">
             <h3>Beef</h3>
+            </div>
         </div>
-        <p class="box-menu">Lorem ipsum dolor sit amet,<br>
+        <p class="col-12">Lorem ipsum dolor sit amet,<br>
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+        officia deserunt mollit anim id est laborum. <a href="#">Back to Top</a>
+        </p>
     </article>
 
-    <article class="col-lg-4 col-md-12 col-sm-12">
-        <div class="box-0">
-        </div>
-        <div class="sushi box-title box-title-medium box-title">
+    <article id="sushi" class="col-md-4 col-sm-12 col-xs-12">
+        <div class="row flat">
+            <div class="col-8">
+            </div>
+            <div class="col-4">
             <h3>Sushi</h3>
+            </div>
         </div>
-        <p class="box-menu sushi-box box-menu-small">Lorem ipsum dolor sit amet,<br>
-         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        <p class="col-12">Lorem ipsum dolor sit amet,<br>
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+        laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit 
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+        officia deserunt mollit anim id est laborum. <a href="#">Back to Top</a>
+       </p>
     </article>
 </div>
 
